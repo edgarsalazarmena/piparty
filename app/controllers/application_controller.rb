@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class ApplicationController < ActionController::API
 
 private
@@ -14,4 +15,10 @@ private
                 status: :unauthorized if current_user.nil?
   end 
   
+=======
+class ApplicationController < ActionController::Base
+  # Prevent CSRF attacks by raising an exception.
+  # For APIs, you may want to use :null_session instead.
+  protect_from_forgery with: :exception
+>>>>>>> b889893d42b34e19a866e0d30aa04732a15fa7c2
 end

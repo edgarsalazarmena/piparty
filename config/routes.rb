@@ -1,10 +1,16 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
 
   resources :images, except: [:new, :edit]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
   resources :photos
   resources :users
+=======
+  # The priority is based upon order of creation: first created -> highest priority.
+  # See how all your routes lay out with "rake routes".
+
+>>>>>>> b889893d42b34e19a866e0d30aa04732a15fa7c2
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 

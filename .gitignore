@@ -7,10 +7,13 @@
 # Ignore bundler config.
 /.bundle
 
+<<<<<<< HEAD
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
+=======
+>>>>>>> b889893d42b34e19a866e0d30aa04732a15fa7c2
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
